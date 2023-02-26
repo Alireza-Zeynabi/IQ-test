@@ -1,0 +1,100 @@
+@font-face {
+    font-family: myfont;
+    src: url(/Fonts/grecoliv-brush-gfxdownload.ir/OTF/GrecolivRegular.otf)
+}
+
+
+body {
+background-image: url(/background-img/34478656-iq-test-brain-background-knowledge-science-blackboard-pink-light.webp);
+background-size: cover;
+font-family: myfont;
+}
+
+
+.startBtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 5px rgb(255, 7, 247);
+    transition-property:width,height,border,background-color;
+    transition-duration: .4s ; 
+    font-family: myfont;
+    color: rgb(215, 10, 215);
+    border: 5px solid #000;
+    font-size: 40px;
+}
+
+.startBtn:hover {
+    width: 250px;
+    height: 70px;
+    border: 5px solid rgb(255, 255, 255);
+    /* background-color: rgb(170, 13, 218); */
+}
+
+/* -==-=-=-=-=-=-=-=-=-=-= */
+
+.testSection{
+    display: none;
+    opacity: .85;
+    /* margin: 0 auto;   */
+}
+
+ .questionBox,.answerBox{
+    text-align: center;
+ }
+ .answerBox img{
+    margin: 5px;
+    /* background-color: rgb(208, 208, 208); */
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 5px;
+    cursor: pointer;
+    transition-property:border-bottom,margin-bottom ;
+    transition-duration: .7s ;
+ }
+
+ .answerBox img:hover{
+    border-bottom: 3px solid rgb(219, 14, 222) ;
+    margin-bottom: 20px  ;
+ }
+
+.testContainer {
+    width: 900px;
+    height: 570px;
+    /* margin-left:15%; */
+    background-color: rgb(238, 238, 238);
+    border: 3px solid #000;
+    /* display: none; */
+    position: absolute;
+}
+/* testSection */
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* ResultsPage */
+
+.ResultsPage{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    display: none;
+    background-color: rgb(25, 120, 228);
+    border-radius: 10px;
+    height: 200px;
+    text-align: center;
+}
+.finalSentence{
+    background-color: rgb(176, 1, 176);
+    width: 350px;
+    margin: 5% auto;
+    border-radius: 5px;
+    font-size: 20px;
+}
