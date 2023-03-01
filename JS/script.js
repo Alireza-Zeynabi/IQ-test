@@ -209,7 +209,7 @@ function givingScore(element) {
     if (element.classList.contains('trueAnswer')) {
 
         score += 1
-        console.log(score)
+        //  console.log(score)
     }
 
 
@@ -272,7 +272,7 @@ function av() {
     }
 
 }
-console.log(score)
+
 
 
 
