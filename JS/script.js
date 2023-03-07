@@ -247,26 +247,25 @@ function av() {
     if (score < 5) {
         finalSentence.innerText = 'trust me, go kill yourself😃'
     }
-    if (score >= 5) {
+    if (score >= 5 && score < 10) {
         finalSentence.innerText = 'trust me, go kill yourself😃'
     }
-    if (score >= 10) {
+    if (score >= 10 && score < 15) {
 
         finalSentence.innerText = 'you fuckdup but its not so bad (pakhme 😆)'
     }
-    if (score >= 15) {
+    if (score >= 15 && score < 20) {
 
         finalSentence.innerText = 'sorry i think you are blind '
     }
-    if (score >= 20) {
+    if (score >= 20 && score < 25) {
 
         finalSentence.innerText = 'Look at the fucking monitor and get a better score (Its not too bad, your head is not empty ) '
     }
-    if (score >= 25) {
+    if (score >= 25 && score < 30) {
         finalSentence.innerText = 'okey okey good (Do not be snobbish You are still an idiot with more practice)'
 
-    }
-    if (score == 30) {
+    } if (score == 30) {
         finalSentence.innerText = 'Congratulations, you are out of stupid mode'
 
     }
